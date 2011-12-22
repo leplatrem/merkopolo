@@ -1,0 +1,80 @@
+#########
+Merkopolo
+#########
+
+A very simple project demonstrating the usage of Merkaartor components 
+to build a GIS application.
+
+
+====================
+Install Dependencies
+====================
+
+Linux Setup
+===========
+
+Just install those packages (e.g. via ``apt-get``) :
+
+* git-core
+* libgdal-dev
+* qtcreator
+* libqt4-dev
+* libqt4-sql-psql
+
+You're done ! Build the source code !
+
+
+Windows Setup
+=============
+* msysgit
+* QtCreator
+
+Qt SDK
+------
+
+Download and install the latest version of Qt SDK from http://qt.nokia.com :
+* Install it to ``C:\Qt\4.7.4``
+* Choose *Custom*
+* Check *Miscellaneous* > *MinGW* to install ``mingw``
+* Check *Qt Source Code*
+
+MinGW dependencies
+------------------
+
+Download Merkaartor dependencies built for Windows ::
+
+    git clone git://gitorious.org/merkaartor/mingw-binaries.git
+
+Go into *mingw-binaries* and :
+
+* Copy (merge) all folders (``bin``, ``lib``, etc.) with those in ``C:\Qt\4.7.4\Desktop\Qt\4.7.4\mingw\``
+
+You're done ! Build the source code !
+
+
+=================
+Build Source Code
+=================
+
+Fetch Merkaartor source code ::
+
+    git clone git://gitorious.org/~leplatrem/merkaartor/leplatrem-main.git merkaartor
+    cd merkaartor/
+    git checkout preview   # very important
+    cd ..
+
+You should have the following folder tree ::
+
+    README
+    merkopolo/
+      \_ merkopolo.pro
+      \_ ...
+    merkaartor/
+      \_ src/
+      \_ ...
+
+Open `merkopolo.pro` in QtCreator.
+
+Open "Project" tab (in left bar), check *Shadow Build* and verify that your *Build Folder* exists.
+
+Build ! (can take time, like 5-10 minutes)

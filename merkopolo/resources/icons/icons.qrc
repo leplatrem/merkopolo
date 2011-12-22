@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/mpIcons">
+        <file>MCursorZoomRegion.svg</file>
+        <file>MActionZoomIn.svg</file>
+        <file>MActionZoomOut.svg</file>
+        <file>MActionZoomRegion.svg</file>
+        <file>merkopolo.svg</file>
+    </qresource>
+</RCC>
