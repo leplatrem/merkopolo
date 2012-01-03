@@ -36,6 +36,12 @@ include($$MERKAARTOR_SRC_DIR/QMapControl.pri)  # from ImageMapLayer
 include($$MERKAARTOR_SRC_DIR/qextserialport/qextserialport.pri)  # from QGPSDevice
 include($$MERKAARTOR_SRC_DIR/Tools/Tools.pri)  # from MainWindow
 
+# Auto-generated file
+win32|macx {
+    system(echo $${LITERAL_HASH}define SVNREV dev > $$MERKAARTOR_SRC_DIR/revision.h )
+} else {
+    system('echo -n "$${LITERAL_HASH}define SVNREV dev" > $$MERKAARTOR_SRC_DIR/revision.h')
+}
 
 CONFIG += rtti stl
 
