@@ -19,9 +19,8 @@ Just install those packages (e.g. via ``apt-get``) :
 * libgdal-dev
 * qtcreator
 * libqt4-dev
-* libqt4-sql-psql
 
-You're done ! Build the source code !
+You're done ! Jump to the `Build the source code` section !
 
 
 Windows Setup
@@ -58,10 +57,7 @@ Build Source Code
 
 Fetch Merkaartor source code ::
 
-    git clone git://gitorious.org/~leplatrem/merkaartor/leplatrem-main.git merkaartor
-    cd merkaartor/
-    git checkout preview   # very important
-    cd ..
+    git clone git://gitorious.org/merkaartor/main.git merkaartor
 
 You should have the following folder tree ::
 
