@@ -55,9 +55,9 @@ You're done ! Build the source code !
 Build Source Code
 =================
 
-Fetch Merkaartor source code ::
+Fetch source code of Merkopolo and Merkaartor in one go:
 
-    git clone git://gitorious.org/merkaartor/main.git merkaartor
+    git clone --recursive git@github.com:leplatrem/merkopolo.git
 
 You should have the following folder tree ::
 
