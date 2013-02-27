@@ -56,7 +56,7 @@ else {
     QMAKE_CFLAGS += $$system(gdal-config --cflags)
 }
 
-LIBS += -lproj
+LIBS += -lproj -lz
 
 QT  += core gui xml svg network webkit
 

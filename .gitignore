@@ -1,2 +1,6 @@
 *.pro.user
-merkaartor
+*.o
+ui_*.h
+moc_*.cpp
+*.moc
+Makefile
