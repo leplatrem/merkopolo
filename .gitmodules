@@ -1,3 +1,3 @@
 [submodule "merkaartor"]
 	path = merkaartor
-	url = git@gitorious.org:~richardbrinkman/merkaartor/richardbrinkman-main.git
+	url = https://git.gitorious.org/merkaartor/richardbrinkman-main.git
